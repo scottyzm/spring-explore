@@ -11,4 +11,9 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
 
+    @RequestMapping("/docker")
+    public String docker() {
+        return "Hello docker world!";
+    }
+
 }

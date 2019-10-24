@@ -23,5 +23,9 @@
 hs_err_pid*
 
 # Folders
-spring-explore/bin
-spring-explore/build
+**/bin/**
+.vscode
+.gradle
+.settings/org.eclipse.buildship.core.prefs
+build/**
+
